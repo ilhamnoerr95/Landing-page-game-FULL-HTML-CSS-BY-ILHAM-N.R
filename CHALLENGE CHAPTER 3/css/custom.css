@@ -1,0 +1,325 @@
+
+.container-navbar {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.custom-navbar {
+    background: rgba(0, 0, 0, 0.4) !important;
+    padding: 1em; 
+}
+.nav-item{
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    margin-right: 38px;
+}
+
+.open {
+    font-family: Arial;
+    font-style: normal;
+}
+
+.txt-traditional {
+    font-size: 72px;
+    line-height: 83px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+
+.txt-story {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: justify;
+    text-transform: uppercase;
+    font-style: normal;
+    margin-top: 630px;
+}
+
+.custom-navbar-brand {
+    color: #fff !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:24px;
+    letter-spacing: 10%;
+}
+
+
+.list-navbar-right li a {
+    color: #fff !important;
+}
+
+.banner {
+    background-image: url('../img/main-bg.jpg');
+    border-radius: 0;
+    height: 79em;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.btn-play {
+    border-radius: 4px;
+    width: 260px;
+    height: 60px;
+   
+}
+
+.txt-play{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    text-align:center;
+    position: absolute;
+    top: calc(50% - 22px/2 + 78.4px);
+
+}
+
+/* Special Games */
+.txt-special{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.caption-special{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    letter-spacing: 3px;
+}
+
+.special-games {
+    background-image: url('../img/the-games-bg.png');
+    margin-top: -2em;
+    height: 80em;
+    background-size: cover;
+}
+
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    list-style-type: circle !important;
+}
+
+/* Features */
+.features {
+    background-image: url('../img/features.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80em;
+}
+
+
+.txt-title {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    margin-top: 15em;
+}
+
+.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.timeline li a {
+    color: #f9ba4d;
+}
+
+.timeline > li:before {
+    content: '';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+/* Requirements */
+.requirements {
+    background-image: url('../img/requirements.png');
+    height: 80em;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.table-requirements tr td {
+    padding: 1em;
+    border: 1px solid rgba(53, 53, 53, 0.6);
+}
+
+.requirements-caption-title {
+    color: #f9ba4d;
+}
+
+.requirements-title {
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+
+/* Top Scores */
+.top-scores {
+    background-image: url('../img/the-games-bg.png');
+    height: 90em;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top-scores-title {
+    margin-top: 10em;
+}
+
+.card-margin-top {
+    margin-top: 25em;
+}
+
+.card-top-scores {
+    width: 28em;
+    background-color: #1e1f1f;
+}
+
+.top-score-name {
+    color: orange;
+}
+
+.top-score-profession {
+    color: #707d7f;
+}
+
+.top-score-date {
+    color: #707d7f; 
+}
+
+.custom-navbar-brand {
+    color: #fff !important;
+}
+
+
+.list-navbar-left li a {
+    margin-right: 0.5em !important;
+    color: #fff !important;
+}
+
+/* Media Query */
+@media only screen and (min-width:320px) and (max-width: 768px){
+    .list-navbar-left li a {
+        color: #fff !important;
+    }
+
+    .banner {
+        width: 65em;
+    }
+
+    .banner h1 {
+        margin-top: 7em;
+    }
+
+    .caption-story {
+        margin-top: 1em;
+    }
+
+    .special-games {
+        width: 65em;
+        margin-top: -3em
+    }
+
+    .title-special {
+        text-align: center;
+        margin-top: 3em;
+    }
+
+    .caption-special {
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    .features {
+        width: 65em;
+        margin-top: -1em;
+    }
+    
+    .requirements {
+        width: 65em;
+        margin-top: -1em;
+    }
+
+    .top-scores {
+        width: 65em;
+        margin-top: -1em;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:2560px){
+    .custom-navbar-brand {
+        margin-left: 4em;
+    }
+
+    .list-navbar-left {
+        margin-left: 8em;
+    }
+
+    .list-navbar-left li a {
+        margin-right: 0.5em !important;
+    }
+
+    .banner h1 {
+        margin-top: 4em;
+    }
+
+    .caption-story {
+        margin-top: 38em;
+    }
+    
+    .icon-story {
+        margin-top: -1em;
+    }
+
+    .title-special {
+        margin-top: 20em;
+    }
+    
+    .carousel-special {
+        margin-top: 22em;
+    }
+
+    .top-score-testimony {
+        margin-left: -4em; 
+        margin-top: 1em;
+    }
+
+    .top-score-date {
+        margin-left: -4em;
+    }
+}
